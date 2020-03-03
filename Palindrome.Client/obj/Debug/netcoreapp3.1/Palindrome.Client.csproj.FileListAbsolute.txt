@@ -1,0 +1,3 @@
+/home/tango/revature_challenge/1_csharp/github-challenge-tew9/Palindrome.Client/obj/Debug/netcoreapp3.1/Palindrome.Client.csprojAssemblyReference.cache
+/home/tango/revature_challenge/1_csharp/github-challenge-tew9/Palindrome.Client/obj/Debug/netcoreapp3.1/Palindrome.Client.AssemblyInfoInputs.cache
+/home/tango/revature_challenge/1_csharp/github-challenge-tew9/Palindrome.Client/obj/Debug/netcoreapp3.1/Palindrome.Client.AssemblyInfo.cs
