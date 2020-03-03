@@ -8,25 +8,13 @@ namespace Palindrome.Domain
       private string test = "ollo";
       private List<string> pal =  new List<string>();
       
-      public List<String> GetPalindrome(string input)
+      public List<String> CheckPal(string input)
       {
-        int i = 0;
-        while(i < test.length)
-        {
-          for(j = test.length - 1; j >= i; j--)
-          {
-            if(test[i] == test[j])
-            {
-              pal.Add(test[i]);
-              break;
-            }
-          }
-
-          i++;
-        }
-
-       return pal;
        
+        char[] ar_string = s.ToCharArray();
+        string new_s = Array.Reverse(ar_string).ToString();
+
+        return new_s == ar_string;
       }
     }
 }

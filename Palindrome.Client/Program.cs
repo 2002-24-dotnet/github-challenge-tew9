@@ -6,24 +6,18 @@ namespace Palindrome.Client
     {
         static void Main(string[] args)
         {
-             System.Console.WriteLine("Please enter a string\n");
+          System.Console.WriteLine("Please enter a string\n");
           string input = Console.ReadLine();
 
           Palindrome p = new Palindrome();
-          List<String> pal = p.GetPalindrome(input);
-
-          CheckPal();
-        }
-
-        private static CheckPal()
-        {
-          if(pal.length == input.length)
+          if(p.CheckPal(input))
           {
-            System.Console.WriteLine("The Word {0} is palindrome of {0}", input, pal);
-          }else{
-            System.Console.WriteLine("The Word {0} is not a palindrome of {0}", input, pal);
+            System.Console.WriteLine("The Word {0} is palindrome", input);
           }
+          else {
+            System.Console.WriteLine("The Word {0} is not a palindrome", input);
+          }
+
         }
-        
     }
 }
